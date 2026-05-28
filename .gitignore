@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Pipeline outputs (regeneratable)
+data/output/
+data/cache/
+output/
+
+# Raw data (large, do not commit)
+data/**/*.pdf
+data/**/*.xlsx
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.heic

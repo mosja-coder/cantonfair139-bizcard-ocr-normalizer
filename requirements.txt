@@ -1,0 +1,7 @@
+pypdf>=6.0.0
+openpyxl>=3.1.0
+python-dotenv>=1.0.0
+
+# Optional: HEIC/HEIF support
+pillow>=10.0.0
+pillow-heif>=0.16.0
